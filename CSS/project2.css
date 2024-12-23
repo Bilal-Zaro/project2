@@ -304,6 +304,8 @@ button:hover {
 
 .heroImage {
   border-radius: 50%;
+  width: 450px;
+  height: 450px;
 }
 /* .aboutTitle {
   font-size: 3rem;
