@@ -158,7 +158,7 @@ header {
   color: rgba(124, 58, 237, 0.9);
 }
 .maincon {
-  background-color: lightblue;
+  /* background-color:; */
   width: 100%;
   height: 100%;
   background-image: url("/Images/backgroun.png");
@@ -333,7 +333,7 @@ button:hover {
   width: 400px;
   border-radius: 15px;
 }
-.aboutContent {
+Content {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -404,9 +404,6 @@ body {
   margin: 0;
   color: #333;
 }
-div h2{
-
-}
 .projects {
   text-align: center;
   padding: 2rem;
@@ -418,8 +415,9 @@ div h2{
 }
 
 .project-cards {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-rows: repeat(2,auto);
+  grid-template-columns: repeat(3,auto);
   justify-content: center;
   gap: 1.5rem;
   max-width: 80%;
@@ -437,6 +435,7 @@ text-align: start;
   width: calc(33.33% - 1rem);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+  width: 370px;
 }
 
 .card1 img {
@@ -520,10 +519,10 @@ text-align: start;
   object-fit: cover;
   border-radius: 4px;
 }
-
+/* 
 .education-details {
   flex: 1;
-}
+} */
 
 .education-title {
   color: #00008b;
